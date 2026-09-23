@@ -11,12 +11,9 @@ print('''Suas opções:
 
 jogador = int(input('Qual a sua jogada? '))
 
-print('JO')
-sleep(1)
-print('KEN')
-sleep(1)
-print('PO!!')
-sleep(1)
+for palavra in ('JO', 'KEN', 'PO!!'):
+    print(palavra)
+    sleep(1)
 
 print('-' * 30)
 
